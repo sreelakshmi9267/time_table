@@ -29,48 +29,26 @@ Execute the program using runserver command.
 <head>
     <meta charset="UTF-8">
     <title>Sree lakshmi</title>
-    <Style>
-        body{
-            display:flex;
-            flex-direction: column;
-            justify-content:center;
-            align-items:center;
-            height:100vh;
-            background-color:#f8f9fa;
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        }
-        table{
-            border-collapse:collapse;
-            width:60%;
-            margin: 10px auto;
-            font-size:15px;
-            text-align:center;
-            background-color:white;
-            box-shadow:0px 4px 10px rgba(0,0,0,0.2)
-        }
-        th,td{
-            border:2px solid purple;
-            padding:15px;
-        }
-        th{
-            background-color:#dcc4e9;
-        }
-        tr:nth-child(even){
-            background-color:#f3e5f5;
-        }
-        tr:nth-child(odd){
-            background-color:#ede7f6;
-        }
-        h1{
-            text-align:right;
-            color:black;
-        }
-    </Style>
+    <style>
+       th,td{
+        border:2px solid purple;
+       }
+       th{
+        background-color:#dcc4e9;
+       }
+       tr:nth-child(even){
+           background-color:#f3e5f5;
+       }
+       tr:nth-child(odd){
+        background-color:#ede7f6
+       }
+
+    </style>
 </head>
-<body>
-    
-    <h1>CLASS TIME TABLE - SREE LAKSHMI B (25015545)</h1>
-    <table border="3">
+<body align="center">
+    <img src="logo.png" height="110px" width="700px">
+    <h2>CLASS TIME TABLE - SREE LAKSHMI B (25015545)</h2>
+         <table align="center" cellpadding="4">
         <tr>
             <th>Day/Hours</th>
             <th>8.00 a.m - 10.00 a.m</th>
@@ -78,9 +56,7 @@ Execute the program using runserver command.
             <td rowspan="7">L <br><br><br> U <br><br><br> N <br><br><br> C <br><br><br> H</td>
             <th>1.00 p.m - 3.00 p.m</th>
             <th>3.00 p.m - 5.00 p.m</th>
-        </tr>
-               
-    
+        </tr>        
         <tr>
             <th>MONDAY</th>
             <td>WEB </td>
@@ -106,7 +82,7 @@ Execute the program using runserver command.
             <td>ENGLISH</td>
             <td>C PROGRAMMING</td>
             <td>ENGLISH</td>
-            <td>C PROGRAMMING</td>
+            <td>C PROGRAMMING</td></tr>
         <tr>
             <th>FRIDAY</th>
             <td>C PROGRAMMING</td>
@@ -118,11 +94,12 @@ Execute the program using runserver command.
             <td>ENGLISH</td>
             <td>WEB</td>
             <td>ENGLISH</td>
+            
             <td>-</td>
         </tr>
     </table>
     <h2>Subjects</h2>
-    <table>
+    <table align="center" cellpadding="13">
         <tr>
             <th>S.NO</th>
             <th>Subject Code</th>
@@ -137,6 +114,7 @@ Execute the program using runserver command.
             <td>2.</td>
             <td>19AI304</td>
             <td>Fundamentals of C Programming</td>
+            
         </tr>
         <tr>
             <td>3.</td>
@@ -148,6 +126,7 @@ Execute the program using runserver command.
 </html>
 ```
 # OUTPUT
-![alt text](<Screenshot 2025-09-22 081412.png>)
+<img width="1920" height="1080" alt="Screenshot 2025-09-26 224820" src="https://github.com/user-attachments/assets/13ef904f-5aa8-4f24-9577-e35511539d25" />
+
 # RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
